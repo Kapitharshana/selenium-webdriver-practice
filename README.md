@@ -1,1 +1,1 @@
-Practising Selenium witth java in Eclipse for Automtion Testing in QA
+Practising Selenium with java in Eclipse for Automtion Testing in QA
