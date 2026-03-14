@@ -18,3 +18,6 @@ public class sleepcommand {
 	}
 
 }
+//This is a ususal java method , not the selenium specific method. 
+//adv: easy to use
+//disadv : If the time is not suffiient then , it wwill throw exception , multiple times
