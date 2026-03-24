@@ -31,12 +31,13 @@ public class practisecheckbox {
 			checkboxes.get(i).click();
 		}*/
 		
-		//select last 3 
+		//select last 2 
 		List <WebElement> checkboxes= driver.findElements(By.xpath("//tbody//td//input[@type='checkbox']"));
 		for(int i=3; i<checkboxes.size(); i++) {
 			checkboxes.get(i).click();
 		}
-		
+
+		//unselect the selected last 2
         for(int i=0; i<checkboxes.size(); i++) {
 			
 			if(checkboxes.get(i).isSelected()){
