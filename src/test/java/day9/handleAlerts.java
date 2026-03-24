@@ -22,8 +22,6 @@ public class handleAlerts {
 		System.out.println(myalert.getText());
 		myalert.accept();
 		
-	
-		
 		
 		//click for JSalert confirm
 		driver.findElement(By.xpath("//button[normalize-space()='Click for JS Confirm']")).click();
@@ -40,8 +38,7 @@ public class handleAlerts {
 		//myalert.dismiss();
 		myaaalert.sendKeys("Welcome");
 		myaaalert.accept();
-        
-		
+        		
 
 	}
 
